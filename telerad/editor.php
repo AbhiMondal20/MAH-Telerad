@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RadReport — Radiology Document Editor</title>
+<link rel="icon" href="https://rhythm.abhitechbot.in/opd/images/favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -1086,6 +1087,9 @@ function handlePaste(e) {
     scheduleAutoSave();
     setTimeout(updateToolbarState, 50);
 }
+
+
+
 
 function execCmd(cmd, val = null) { 
     const sel = window.getSelection();
